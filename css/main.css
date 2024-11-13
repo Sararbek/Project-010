@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "clockFont";
+  src: url("../fonts/digital-7\ \(mono\).woff") format("woff");
+  font-weight: normal;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 10vw;
+  font-family: "clockFont";
+}
+
+p {
+  font-size: 2vw;
+  font-family: sans-serif;
+}
